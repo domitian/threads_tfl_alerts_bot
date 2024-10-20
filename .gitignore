@@ -1,0 +1,13 @@
+.venv/
+venv/
+
+.env*
+!.env.example
+
+# ignore pycache
+__pycache__/
+
+# ignore log and db files
+*.log
+*.db
+*.sqlite3
